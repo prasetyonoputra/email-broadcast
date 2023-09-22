@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WaSender</title>
+
+    <link rel="stylesheet" href="../src/styles/createAccount.css" />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="divImageLogo">
+        <img width="100px" src="../src/images/logoLogin.jpg" />
+      </div>
+      <div class="divForm">
+        <form>
+          <div class="inputTextForm">
+            <label for="name">Name</label> <br />
+            <input
+              id="name"
+              type="text"
+              name="name"
+              required="required"
+              autofocus="autofocus"
+            />
+          </div>
+
+          <div class="inputTextForm">
+            <label for="email">Email</label> <br />
+            <input id="email" type="email" name="email" required="required" />
+          </div>
+
+          <div class="inputTextForm">
+            <label for="phone">Phone with country code</label> <br />
+            <input id="phone" type="tel" name="phone" required="required" />
+          </div>
+
+          <div class="inputTextForm">
+            <label for="password">Password</label> <br />
+            <input
+              id="password"
+              type="password"
+              name="password"
+              required="required"
+            />
+          </div>
+
+          <div class="inputTextForm">
+            <label for="confirmPassword">Confirm confirmPassword</label> <br />
+            <input
+              id="confirmPassword"
+              type="confirmPassword"
+              name="confirmPassword"
+              required="required"
+            />
+          </div>
+
+          <div class="divAgreeTerm">
+            <label for="agreeTerm">
+              <input id="agreeTerm" type="checkbox" name="agreeForm" />
+              I agree too <a href="">Terms of Use & Privacy Policy</a>
+            </label>
+          </div>
+
+          <div class="divBottomForm">
+            <a href="../pages/login.html"> Already registered? </a>
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

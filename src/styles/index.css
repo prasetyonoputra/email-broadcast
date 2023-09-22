@@ -1,6 +1,6 @@
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 body {
   margin: 0;
@@ -9,6 +9,8 @@ body {
   font-weight: 400;
   line-height: 1.45;
   color: #6e6b7b;
+
+  background-color: rgb(243 244 246);
 }
 
 .sideBarDashboard {
@@ -150,4 +152,135 @@ body {
 
 .sideBarMenu a :hover {
   cursor: pointer;
+}
+
+.headerNavbar {
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+  position: fixed;
+  right: 0;
+  margin: 1.3rem auto 0;
+  width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+  border-radius: 0.428rem;
+  z-index: 12;
+  left: 260px;
+  background: #fff;
+  padding: 0px;
+  min-height: 4.45rem;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  transition: 300ms ease all, background 0s;
+  align-items: center !important;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer {
+  padding: 0.8rem 1rem;
+  flex-basis: 100%;
+  transition: 300ms ease all;
+  margin-left: 0;
+  padding: 0;
+  position: relative;
+  transition: 300ms ease all;
+  backface-visibility: hidden;
+  min-height: calc(100% - 3.35rem);
+  margin-left: 260px;
+  display: flex !important;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer ul {
+  flex-direction: row;
+  border-radius: 0.25rem;
+  margin-left: auto !important;
+  align-items: center !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer li {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer a {
+  color: #6e6b7b;
+  padding: 0 0.5rem;
+  position: relative;
+  display: block;
+  transition: none;
+  white-space: nowrap;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer i {
+  margin-right: 0.4rem;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.headerNavbarContainer span {
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.divNamaUser {
+  flex-direction: column;
+  align-items: flex-end;
+  float: left;
+  margin-right: 0.8rem;
+  display: flex !important;
+  box-sizing: border-box;
+}
+
+.userName {
+  display: inline-block;
+  margin-bottom: 0.435rem;
+  margin-left: 0.2rem;
+  font-weight: 600 !important;
+  box-sizing: border-box;
+}
+
+.userStatus {
+  font-size: smaller;
+  box-sizing: border-box;
+}
+
+.avatar {
+  white-space: nowrap;
+  background-color: #c3c3c3;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  display: inline-flex;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.appContent {
+  position: relative;
+  transition: 300ms ease all;
+  backface-visibility: hidden;
+  min-height: calc(100% - 3.35rem);
+  margin-left: 260px;
+  padding: calc(2rem + 4.45rem + 1.3rem) 2rem 0;
+  box-sizing: border-box;
 }

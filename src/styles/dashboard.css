@@ -1,0 +1,28 @@
+div{
+    border: 1px solid red;
+}
+
+.sideBarDashboard {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 20%;
+}
+
+.mainDashboard {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 80%;
+    overflow: auto;
+}
+
+.titleSideBar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

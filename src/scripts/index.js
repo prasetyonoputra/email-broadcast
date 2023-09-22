@@ -1,4 +1,4 @@
 window.onload = (event) => {
-  let thisUrl = window.location;
-  window.location.href = `${thisUrl}pages/login.html`;
+  let thisUrl = window.location.origin + "/" + PROJECT_NAME;
+  window.location.href = `${thisUrl}/pages/login.html`;
 };

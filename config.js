@@ -1,0 +1,1 @@
+var PROJECT_NAME = "freelance-credit";

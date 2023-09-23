@@ -4,5 +4,5 @@ document.getElementById("formLogin").addEventListener("submit", (event) => {
   var formData = new FormData(document.getElementById("formLogin"));
 
   let thisUrl = window.location.origin + "/" + PROJECT_NAME;
-  window.location.href = `${thisUrl}/pages/dashboard.html`;
+  window.location.href = `${thisUrl}`;
 });

@@ -125,6 +125,8 @@
   box-sizing: border-box;
 }
 
-.sideBarMenu a :hover {
-  cursor: pointer;
+.sideBarMenu .selectedSideMenu:hover {
+  background-color: #7367f0;
+  color: white;
+  border-radius: 10px;
 }

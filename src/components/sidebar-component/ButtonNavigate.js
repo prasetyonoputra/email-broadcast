@@ -25,6 +25,9 @@ function ButtonNavigate(params) {
       case "Devices":
         document.getElementById("divDevices").style.display = "flex";
         break;
+        case "Send Message":
+          document.getElementById("divSendMessage").style.display = "flex";
+          break;
 
       default:
         break;

@@ -13,7 +13,8 @@ function Devices(params) {
         margin: "20px 20px 20px 21vw",
         display: "flex",
         padding: "30px",
-        justifyContent: "space-around"
+        justifyContent: "space-around",
+        display: "none"
       }}
     >
       <div style={styleBoxTop}>

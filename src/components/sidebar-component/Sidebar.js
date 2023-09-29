@@ -4,7 +4,7 @@ function Sidebar() {
   return (
     <div
       style={{
-        width: "25vw",
+        width: "20vw",
         height: "100vh",
         backgroundColor: "white",
         position: "fixed",

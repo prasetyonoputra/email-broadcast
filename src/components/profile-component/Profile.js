@@ -1,12 +1,11 @@
 function Profile(params) {
   return (
     <div
+      id="divProfile"
       style={{
         backgroundColor: "white",
-        margin: "20px 20px 20px 27vw",
-        backgroundColor: "white",
-        display: "inline-block",
-        display: "flex",
+        margin: "20px 20px 20px 21vw",
+        display: "none",
         padding: "30px",
       }}
     >
@@ -57,34 +56,36 @@ function Profile(params) {
         Details
         <hr />
         <table>
-          <tr>
-            <td>Name</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Email</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Phone</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Status</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Role</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Language</td>
-            <td>: Your Name</td>
-          </tr>
-          <tr>
-            <td>Panel theme</td>
-            <td>: Your Name</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Status</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Role</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Language</td>
+              <td>: Your Name</td>
+            </tr>
+            <tr>
+              <td>Panel theme</td>
+              <td>: Your Name</td>
+            </tr>
+          </tbody>
         </table>
         <button>Edit</button>
       </div>

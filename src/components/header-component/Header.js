@@ -11,11 +11,12 @@ function Header(params) {
   return (
     <div
       style={{
-        margin: "20px 20px 20px 27vw",
+        margin: "20px 20px 20px 21vw",
         backgroundColor: "white",
         display: "flex",
         alignItems: "center",
         justifyContent: "end",
+        borderRadius: "20px"
       }}
     >
       <button style={styleButton}>

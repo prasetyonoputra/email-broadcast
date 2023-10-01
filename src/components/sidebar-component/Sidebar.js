@@ -4,15 +4,24 @@ function Sidebar() {
   return (
     <div
       style={{
-        width: "20vw",
+        width: "15vw",
         height: "100vh",
-        backgroundColor: "white",
+        backgroundColor: "#D9D9D9",
         position: "fixed",
         top: "0",
+        fontFamily: "sans-serif",
+        color: "#715959"
       }}
     >
-      <div style={{ display: "flex", height: "40px", alignItems: "center" }}>
-        WA SENDER
+      <div style={{ display: "flex", height: "40px", alignItems: "center", justifyContent: "center" }}>
+        <img
+          style={{
+            width: "20px",
+            height: "20px",
+            padding: "0px 10px 0px 10px",
+          }}
+        />
+        BROADCASTER
       </div>
       <div>
         <ButtonNavigate text="Profile" />

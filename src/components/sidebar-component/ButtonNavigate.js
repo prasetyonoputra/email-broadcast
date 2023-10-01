@@ -25,9 +25,9 @@ function ButtonNavigate(params) {
       case "Devices":
         document.getElementById("divDevices").style.display = "flex";
         break;
-        case "Send Message":
-          document.getElementById("divSendMessage").style.display = "flex";
-          break;
+      case "Send Message":
+        document.getElementById("divSendMessage").style.display = "flex";
+        break;
 
       default:
         break;
@@ -50,24 +50,27 @@ function ButtonNavigate(params) {
     <div>
       <button
         style={{
-          width: "100%",
+          width: "90%",
           height: "35px",
-          backgroundColor: "transparent",
+          backgroundColor: "#D1EEE5",
           border: "none",
           outline: "none",
           cursor: "pointer",
           borderRadius: "10px",
-          textAlign: "start",
           display: "flex",
           alignItems: "center",
+          color: "#9C8484",
+          marginBottom: "7px",
+          marginLeft: "auto",
+          marginRight: "auto",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = "blue";
-          e.currentTarget.style.color = "white";
+          e.currentTarget.style.backgroundColor = "#C79090";
+          e.currentTarget.style.color = "#E4D1D1";
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "transparent";
-          e.currentTarget.style.color = "black";
+          e.currentTarget.style.backgroundColor = "#D1EEE5";
+          e.currentTarget.style.color = "#9C8484";
         }}
         onClick={onClickHadler}
       >

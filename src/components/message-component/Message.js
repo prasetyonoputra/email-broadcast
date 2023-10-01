@@ -42,7 +42,6 @@ function Message(params) {
         display: "flex",
         padding: "30px",
         justifyContent: "space-around",
-        display: "none",
       }}
     >
       <form id="formBroadcastEmail" onSubmit={handleSubmit}>

@@ -6,17 +6,19 @@ function Header(params) {
     cursor: "pointer",
     display: "flex",
     alignItems: "center",
+    color: "#9C6C6C"
   };
 
   return (
     <div
       style={{
-        margin: "20px 20px 20px 21vw",
-        backgroundColor: "white",
+        margin: "20px 13px 20px 16vw",
+        backgroundColor: "#D9D9D9",
         display: "flex",
         alignItems: "center",
         justifyContent: "end",
-        borderRadius: "20px"
+        borderRadius: "20px",
+        fontFamily: "sans-serif",
       }}
     >
       <button style={styleButton}>
